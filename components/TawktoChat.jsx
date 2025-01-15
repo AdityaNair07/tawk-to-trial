@@ -18,7 +18,8 @@ const TawkToChat = ({ pageData }) => {
 
     // Add Tawk.to script dynamically
     const tawkScript = document.createElement("script");
-    tawkScript.src = "https://embed.tawk.to/6786138849e2fd8dfe0712a3/1ihhrok31";
+    // tawkScript.src = "https://embed.tawk.to/6786138849e2fd8dfe0712a3/1ihhrok31";
+    tawkScript.src = "https://embed.tawk.to/678796873a842732606f4423/1ihkq80mm";
     tawkScript.async = true;
     tawkScript.charset = "UTF-8";
     tawkScript.setAttribute("crossorigin", "*");
