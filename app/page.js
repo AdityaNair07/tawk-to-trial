@@ -5,3 +5,8 @@ export default function Home() {
     </div>
   );
 }
+
+export const metadata = {
+  title: "Homepage",
+  description: "Implementing Tawk.to in Next.js",
+};

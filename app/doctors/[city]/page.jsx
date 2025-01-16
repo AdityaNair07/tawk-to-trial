@@ -10,4 +10,9 @@ const Page = async ({ params }) => {
   );
 };
 
+export const metadata = {
+  title: "City page",
+  description: "Implementing Tawk.to in Next.js",
+};
+
 export default Page;
