@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-const TawkToChat = ({ pageData }) => {
+const TawkToChat = () => {
   const pathname = usePathname();
   console.log(pathname);
 
@@ -70,7 +70,7 @@ const TawkToChat = ({ pageData }) => {
         window.Tawk_LoadStart = null;
       }
     };
-  }, [pageData]);
+  }, []);
 
   return null; // No visual component, just injects Tawk.to script
 };
