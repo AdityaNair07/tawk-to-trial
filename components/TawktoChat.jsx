@@ -30,13 +30,6 @@ const TawkToChat = ({ pageData }) => {
       window.Tawk_API = window.Tawk_API || {};
       window.Tawk_LoadStart = new Date();
 
-      window.Tawk_API.onChatStarted = function () {
-        window.Tawk_API.visitor = {
-          name: "Visitor",
-          greeting: "how are you?",
-        };
-      };
-
       // Define the onChatStarted callback
       // window.Tawk_API.onChatStarted = function () {
       //   // Send a dynamic greeting message
